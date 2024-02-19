@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Anitque | Fast Order</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fastorder.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-menu-header">
+            <div class="menu-header">
+                <p>Our Cafe Menu</p>
+                <p class="discription">Choose Your Items And Enter the Prices</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="row">
+                <div class="row-img">
+                    <a href="#">
+                        <img src="./images/menu-item-1.jpg" alt="menuItem">
+                    </a>
+                </div>
+                <div class="row-content">
+                    <h3>Hot Cappuccino</h3>
+                    <p>S $8.50</p>
+                    <p>L $10.50</p>
+                </div>
+                <div class="row-img">
+                    <a href="#">
+                        <img src="./images/menu-item-2.jpg" alt="menuItem">
+                    </a>
+                </div>
+                <div class="row-content">
+                    <h3>Hot Americano</h3>
+                    <p>S $8.50</p>
+                    <p>L $10.50</p>
+                </div>
+                <div class="row-img">
+                    <a href="#"></a>
+                    <img src="./images/menu-item-3.jpg" alt="menuItem">
+                    </a>
+                </div>
+                <div class="row-content">
+                    <h3>Hot Latte</h3>
+                    <p>S $8.50</p>
+                    <p>L $10.50</p>
+                </div>
+                <div class="row-img">
+                    <a href="#"></a>
+                    <img src="./images/menu-item-4.jpg" alt="menuItem">
+                    </a>
+                </div>
+                <div class="row-content">
+                    <h3>Hot Chocolate</h3>
+                    <p>S $8.50</p>
+                    <p>L $10.50</p>
+                </div>
+            </div>
+        </div>
+        <div style="position: absolute; right: 0; direction: ltl;" class="box">
+            <div class="row">
+                <div style="margin-right: 20px;" class="row-img">
+                    <img src="./images/menu-item-5.jpg" alt="menuItem">
+                    </a>
+                </div>
+                <div class="row-content">
+                    <h3>Iced Cappuccino</h3>
+                    <p>S $10</p>
+                    <p>L $15</p>
+                </div>
+                <div style="margin-right: 20px;" class="row-img">
+                    <a href="#">
+                        <img src="./images/menu-item-6.jpg" alt="menuItem">
+                    </a>
+                </div>
+                <div class="row-content">
+                    <h3>Iced Americano</h3>
+                    <p>S $14</p>
+                    <p>L $18</p>
+                </div>
+                <div style="margin-right: 20px;" class="row-img">
+                    <a href="#">
+                        <img src="./images/menu-item-7.jpg" alt="menuItem">
+                    </a>
+                </div>
+                <div class="row-content">
+                    <h3>Iced Latte</h3>
+                    <p>S $10</p>
+                    <p>L $15</p>
+                </div>
+                <div style="margin-right: 20px;" class="row-img">
+                    <a href="#">
+                        <img src="./images/menu-item-8.jpg" alt="menuItem">
+                    </a>
+                </div>
+                <div class="row-content">
+                    <h3>Iced Chocolate</h3>
+                    <p>S $8.50</p>
+                    <p>L $10.50</p>
+                </div>
+            </div>
+        </div>
+        <div class="price-container">
+            <div class="price-header">
+                <h2>Prices</h2>
+            </div>
+            <div class="price-body">
+                <div class="first-price-lbl">
+                    <label for="name">first price :</label>
+                </div>
+                <div class="first-price-num">
+                    <input type="number" name="price1" id="price1" placeholder="Enter Your First Item Price">
+                </div>
+                <div class="second-price-lbl">
+                    <label for="name">Password :</label>
+                </div>
+                <div class="second-price-num">
+                    <input type="number" name="price2" id="price2" placeholder="Enter Your Second Item Price">
+                </div>
+                <span id="price-action">Price to pay:</span>
+                <h2 id="result"></h2>
+                <input type="button" value="Claculate" id="cal-btn" onclick="sum()">
+            </div>
+        </div>
+        <script src="./fastOrder.js"></script>
+</body>
+
+</html>

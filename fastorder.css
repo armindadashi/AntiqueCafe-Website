@@ -1,0 +1,115 @@
+.box {
+    height: auto;
+}
+
+body {
+    background-image: url(./images/antique-cafe-bg-04.jpg);
+}
+
+.row-content p {
+    display: inline;
+}
+
+.row-content span {
+    color: #FFF;
+}
+
+.menu-header {
+    bottom: 100%;
+    top: 0;
+    height: 35%;
+}
+
+.menu-header .discription {
+    font-size: 1.3rem;
+}
+
+.price-container {
+    width: 100%;
+    height: 800px;
+    box-shadow: 0px 0px 16px 15px chocolate;
+    backdrop-filter: blur(7px);
+}
+
+.price-header {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    line-height: 160px;
+    font-size: 1.7rem;
+    color: #FFF;
+}
+
+.price-body {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second-price-lbl {
+    margin-top: 100px;
+    width: 80%;
+}
+
+.first-price-lbl {
+    width: 80%;
+}
+
+.first-price-num {
+    width: 80%;
+}
+
+.second-price-num {
+    width: 80%;
+}
+
+.first-price-num input {
+    width: 100%;
+    height: 60px;
+}
+
+.second-price-num input {
+    width: 100%;
+    height: 60px;
+}
+
+input {
+    font-size: 2rem
+}
+
+.second-price-lbl {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.first-price-lbl {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#cal-btn{
+    background-color: #773102;
+    text-align: center;
+    line-height: 90px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    margin-top: 20px;
+}
+#cal-btn:hover{
+    cursor: pointer;
+}
+#result{
+    margin-top: 20px;
+}
+#price-action{
+    font-size: 1.3rem;
+    margin-top: 5px;
+}
